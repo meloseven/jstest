@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>清除浮动的测试</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .c1,.c2{
+            width:200px;
+            height:200px;
+            margin:5px;
+        }
+        .c1{
+            float:left;
+            background-color:#c070ca;
+        }
+        .c2{
+            background-color:#76aa90;
+        }
+    </style>
+</head>
+<body>
+        <div class="c1">melo</div>
+        <div class="c1">melo</div>
+        <!--清除浮动-->
+        <div style="clear: both"></div>
+        <div class="c2">melo</div>
+        <div class="box" >
+            <!-- 清除浮动-->
+            <div style="overflow: auto">
+            <div class="c1">melo</div>
+            <div class="c1">melo</div>
+                </div>
+            <div class="c2">melo</div>
+        </div>
+</body>
+</html>
