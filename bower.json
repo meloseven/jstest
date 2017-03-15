@@ -1,0 +1,17 @@
+{
+  "name": "jstest",
+  "description": "for javascript study and test",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.2.4"
+  }
+}
