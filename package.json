@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/meloseven/jstest/issues"
   },
-  "homepage": "https://github.com/meloseven/jstest#readme"
+  "homepage": "https://github.com/meloseven/jstest#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
 }
