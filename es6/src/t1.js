@@ -55,3 +55,16 @@
     //    let a = 2;
     //}
 }
+
+//test nest scope
+{
+    function a (){
+        return 2;
+    }
+    {
+        let b =a();
+        console.log(b);
+    }
+}
+
+

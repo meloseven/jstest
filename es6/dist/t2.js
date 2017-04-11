@@ -1,4 +1,8 @@
+"use strict";
+
 /**
  * Created by melo on 2017/3/16.
  */
-"use strict";
+var a = 1,
+    b = 2,
+    c = 3;

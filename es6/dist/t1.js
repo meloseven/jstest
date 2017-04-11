@@ -49,3 +49,27 @@
         console.log(tmp); // 123
     }
 })();
+
+//use repeat let
+{}
+//function f1(){
+//    let a = 1;
+//    var a = 1;
+//}
+//function f2(){
+//    let a = 1;
+//    let a = 2;
+//}
+
+
+//test nest scope
+{
+    var _a2 = function _a2() {
+        return 2;
+    };
+
+    {
+        var b = _a2();
+        console.log(b);
+    }
+}
