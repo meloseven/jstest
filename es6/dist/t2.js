@@ -76,3 +76,5 @@ function add1(_ref5) {
     return x - y;
 }
 console.log(add1({ x: 50, y: 20 }));
+
+//解耦的用途
