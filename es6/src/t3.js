@@ -22,4 +22,9 @@ let str = 'return' +'Hello `${name}`';
 let func = new Function('name',str);
 console.log(func('jack'));
 
+//unicode编码的处理
+console.log(String.fromCodePoint(0x1D306));
+console.log("𝌆".codePointAt());
+console.log('\u01D1'.normalize());
+
 
