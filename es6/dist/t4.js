@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /**
  * Created by melo on 2017/5/23.
@@ -10,3 +10,10 @@ log(r1);
 log(r2);
 log(Number(247));
 log(Number(21));
+
+log(Number.isFinite(23));
+log(Number.isFinite(23.22));
+log(Number.isFinite(NaN));
+log(Number.isFinite(INFINITY));
+log(Number.isFinite('22'));
+log(Number.isFinite(true));
